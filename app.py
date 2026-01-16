@@ -115,7 +115,7 @@ elif parameter == "Kadar Air":
 
     if st.button("Hitung Kadar Air"):
         if W1 > 0:
-            hasil = ((W1 - (W3-W2) / W1) * 100
+            hasil = (W1 - (W3-W2) / W1) * 100
             st.success(f"Kadar Air = {hasil:.2f} %")
         else:
             st.error("Bobot awal tidak boleh 0")
