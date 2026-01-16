@@ -156,6 +156,6 @@ elif parameter == "Bilangan Peroksida":
     if st.button("Hitung Bilangan Iodium"):
         if W > 0:
             hasil = ((B - S) * N * 1000) / W
-            st.success(f"Bilangan Iodium = {hasil:.2f}")
+            st.success(f"Bilangan Peroksida = {hasil:.2f}")
         else:
             st.error("Bobot sampel tidak boleh 0")
