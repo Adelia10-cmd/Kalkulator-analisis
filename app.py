@@ -102,7 +102,7 @@ elif parameter == "Kadar Gliserol Total":
 
     if st.button("Hitung Gliserol Total"):
         if W > 0:
-            hasil = ((Vs - Vb) * N * 2.302) / W
+            hasil = ((Vb - Vs) * N * 2.302) / W
             st.success(f"Kadar Gliserol Total = {hasil:.2f} %")
         else:
             st.error("Bobot sampel tidak boleh 0")
