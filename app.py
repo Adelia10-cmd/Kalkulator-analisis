@@ -20,6 +20,7 @@ parameter = st.selectbox(
         "Kadar Air",
         "Kadar Pengotor",
         "Kadar Abu"
+        "Bilangan Peroksida"
     ]
 )
 
